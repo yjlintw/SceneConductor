@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4063687027007a6418f55416232e659b, type: 3}
+  m_Name: TestSceneList
+  m_EditorClassIdentifier: 
+  scenes:
+  - scenePath: Assets/SceneConductor/Test/Scenes/Scene1.unity
+    sceneName: Scene1
+    loadOnStart: 1
+  - scenePath: Assets/SceneConductor/Test/Scenes/Scene2.unity
+    sceneName: Scene2
+    loadOnStart: 0
+  - scenePath: Assets/SceneConductor/Test/Scenes/Scene3.unity
+    sceneName: Scene3
+    loadOnStart: 1
+  - scenePath: Assets/SceneConductor/Test/Scenes/Scene4.unity
+    sceneName: Scene4
+    loadOnStart: 0
+  preLoadScenes:
+    alias: 
+    scenes:
+    - scenePath: Assets/SceneConductor/Test/Scenes/Scene1.unity
+  scenarios:
+  - alias: Game Stage 1
+    scenes:
+    - scenePath: Assets/SceneConductor/Test/Scenes/Scene3.unity
+  - alias: Game Stage 2
+    scenes:
+    - scenePath: Assets/SceneConductor/Test/Scenes/Scene2.unity
+    - scenePath: Assets/SceneConductor/Test/Scenes/Scene4.unity
+  - alias: Game Stage 3
+    scenes:
+    - scenePath: Assets/SceneConductor/Test/Scenes/Scene2.unity
+    - scenePath: Assets/SceneConductor/Test/Scenes/Scene3.unity
+  postLoadScenes:
+    alias: 
+    scenes: []

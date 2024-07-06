@@ -1,0 +1,18 @@
+{
+    "name": "SceneConductor.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c30632146cea5e14cb4e33b77b593389"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

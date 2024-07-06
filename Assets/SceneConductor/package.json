@@ -1,0 +1,11 @@
+{
+  "name": "yjl.sceneconductor",
+  "displayName": "SceneConductor",
+  "description": "Manage Additive Scene Loading in Runtime and Editor Time",
+  "version": "0.0.1",
+  "unity": "2019.4",
+  "author": {
+    "name": "Yu-Jen Lin",
+    "email": "yjlin5210@gmail.com"
+  }
+}
